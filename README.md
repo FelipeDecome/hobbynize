@@ -1,2 +1,2 @@
-# activity-list-app
- An activity list App build with React and NodeJS.
+# Hobbynize
+ A Hobby list App built with React and NodeJS.
