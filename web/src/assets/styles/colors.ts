@@ -8,6 +8,8 @@ export default {
   darkerGray: '#283239',
   black: '#040F16',
 
+  red: '#EF3333',
+
   primary: '#28BBDC',
   secondary: '#6340FF',
   tertiary: '#A512CA',
