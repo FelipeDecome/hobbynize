@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -10,6 +10,15 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+  }
+
+  body {
+    background: ${({ theme }) => theme.colors.background}
+  }
+
+  body, input, button, textarea {
+    font-size: 1.6rem;
+    color: ${({ theme }) => theme.colors.texts}
   }
 
   body, html, #root {
@@ -27,10 +36,6 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-`;
-
-export const Container = styled.div`
-  display: flex;
 `;
 
 export default GlobalStyle;

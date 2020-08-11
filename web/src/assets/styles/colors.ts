@@ -13,4 +13,6 @@ export default {
   primary: '#28BBDC',
   secondary: '#6340FF',
   tertiary: '#A512CA',
+
+  linearGradient: 'linear-gradient(90deg, #28BBDC 0%, #6340FF 50%, #A512CA 100%);',
 };
